@@ -33,13 +33,13 @@ const Header = () => {
             alt="v"
             className="absolute left-0 bottom-0 z-[20] w-[100%] "
           />
-          <div className="absolute w-[100vw] h-[11.66667rem]  top-8 z-[50]">
+          <div className="absolute w-[100vw] h-[11.66667rem] pt-[1.8rem] top-[3rem] z-[50]">
             <div className="container flex  justify-between ">
               <img src={logo} alt="" />
-              <div className="flex items-center gap-[1rem]">
-                <button className="w-[6.1rem] h-[3rem] py-[0.46875rem] pl-[0.36458rem] pr-[0.3125rem] border-[rgba(255,255,255,0.3)] rounded-[1.30208rem] bg-[rgba(35,31,32,0.13)] text-primary  flex items-center gap-[0.57rem] ">
+              <div className="flex items-center gap-[1rem] relative top-[-40px]">
+                <button className="w-[6.1rem] h-[3rem] py-[0.46875rem] pl-[0.36458rem] pr-[0.3125rem] border-[rgba(255,255,255,0.3)] rounded-[1.30208rem] bg-[rgba(35,31,32,0.13)] text-primary font-bold flex items-center gap-[0.57rem] ">
                   <img src={svg5} alt="" />
-                  <span className="font-semibold">ENG</span>
+                  <span className="font-">ENG</span>
                 </button>
                 <button className=" py-[0.72917rem] px-[1.61458rem]  flex items-center gap-[0.41667rem] border-[rgba(255,255,255,0.3)] rounded-[1.30208rem]  bg-[rgba(35,31,32,0.13)] text-primary font-bold">
                   MENU
