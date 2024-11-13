@@ -10,11 +10,11 @@ import img from "../../assets/images/mission/img_2.png";
 const Mission = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center relative">
+      <div className="flex flex-col items-center justify-center relative z ">
         <img
           src={img}
           alt=""
-          className="z-[10] absolute right-[5%] top-[23%]"
+          className="z-[10] absolute right-[5%] top-[22%]"
         />
         <div className="w-[110vw] h-[25.76042rem] rounded-[50%] bg-bg-gradient relative mt-[2.3rem]">
           <div className="absolute top-[45%] inset-0 m-auto">
@@ -43,8 +43,8 @@ const Mission = () => {
           />
         </div>
         {/* card_1 */}
-        <div className=" bg-white">
-          <div className="w-[100vw] max-h-[23rem] pl-[15rem] pt-[4.43rem] pb-[4.13rem] pr-[80rem] flex flex-col gap-[0.57rem] ">
+        <div className=" bg-white py-[5rem] w-[100vw]">
+          <div className="w-[38rem] max-h-[23rem] 2xl:pl-[15rem] xl:pl-[12rem] flex flex-col gap-[0.57rem] ">
             <img src={svg1} alt="" className="w-[6rem]" />
             <div className="text-[1.8rem] font-sans font-bold leading-[130%] tracking-[-0.05417rem] text-[#165BB8] uppercase">
               với cán bộ nhân viên
@@ -56,46 +56,46 @@ const Mission = () => {
           </div>
         </div>
         {/* card2 */}
-        <div className="bg-white relative">
-          <div className="w-[100vw] max-h-[23rem] pl-[15rem] pt-[4.43rem] pb-[4.13rem] pr-[80rem] flex flex-col gap-[0.57rem] ">
+        <div className="bg-white w-[100vw] py-[5rem] relative">
+          <div className="w-[38rem] max-h-[23rem] 2xl:pl-[15rem] xl:pl-[12rem] flex flex-col gap-[0.57rem] ">
             <img src={svg2} alt="" className="w-[6rem]" />
             <div className="text-[1.8rem] font-sans font-bold leading-[130%] tracking-[-0.05417rem] text-[#165BB8] uppercase">
-              với cán bộ nhân viên
+              với khách hàng
             </div>
             <div className="text-13 font-Inter font-medium leading-[150%] tracking-[-0.01875rem] ">
-              Cảm thấy gắn kết, được trân trọng, được tạo cơ hội để khai phá,
-              phát triển, khẳng định giá trị bản thân
+              Cung cấp các sản phẩm - dịch vụ theo tiêu chuẩn quốc tế, mang đến
+              cho khách hàng những trải nghiệm tốt nhất
             </div>
           </div>
           <img
             src={svg6}
             alt=""
-            className="absolute z-10 top-[50%] right-[4%]"
+            className="absolute z-10 top-[50%] right-[0]"
           />
         </div>
         {/* card3 */}
-        <div className="bg-white">
-          <div className="w-[100vw] max-h-[23rem] pl-[15rem] pt-[4.43rem] pb-[4.13rem] pr-[80rem] flex flex-col gap-[0.57rem] ">
+        <div className="bg-white w-[100vw] py-[5rem]">
+          <div className="2xl:w-[38rem] xl:w-[35rem] max-h-[23rem]  2xl:pl-[15rem] xl:pl-[12rem] flex flex-col gap-[0.57rem] ">
             <img src={svg3} alt="" className="w-[6rem]" />
             <div className="text-[1.8rem] font-sans font-bold leading-[130%] tracking-[-0.05417rem] text-[#165BB8] uppercase">
-              với cán bộ nhân viên
+              Với đối tác
             </div>
             <div className="text-13 font-Inter font-medium leading-[150%] tracking-[-0.01875rem] ">
-              Cảm thấy gắn kết, được trân trọng, được tạo cơ hội để khai phá,
-              phát triển, khẳng định giá trị bản thân
+              Tin tưởng và muốn hợp tác dài lâu trên nền tảng của sự phát triển
+              bền vững và hướng tới những giá trị tốt đẹp
             </div>
           </div>
         </div>
         {/* card4 */}
-        <div className=" bg-bg-card-gradient relative">
-          <div className="w-[100vw] max-h-[23rem] pl-[15rem] pt-[4.43rem] pb-[4.13rem] pr-[80rem] flex flex-col gap-[0.57rem] ">
+        <div className=" bg-bg-card-gradient  py-[5rem] w-[100vw] relative ">
+          <div className="w-[38rem] max-h-[23rem] 2xl:pl-[15rem] xl:pl-[12rem] flex flex-col gap-[0.57rem] ">
             <img src={svg4} alt="" className="w-[6rem]" />
             <div className="text-[1.8rem] font-sans font-bold leading-[130%] tracking-[-0.05417rem] text-[#165BB8] uppercase">
-              với cán bộ nhân viên
+              VỚI CỘNG ĐỒNG
             </div>
             <div className="text-13 font-Inter font-medium leading-[150%] tracking-[-0.01875rem] ">
-              Cảm thấy gắn kết, được trân trọng, được tạo cơ hội để khai phá,
-              phát triển, khẳng định giá trị bản thân
+              Hài hòa lợi ích doanh nghiệp với lợi ích xã hội, đóng góp tích cực
+              cho các hoạt động hướng về cộng đồng
             </div>
           </div>
           <img
