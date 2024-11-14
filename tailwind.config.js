@@ -13,9 +13,9 @@ export default {
       container: {
         center: true,
         padding: {
-          DEFAULT: "1rem",
-          sm: "0.2rem",
-          md: "1rem",
+          DEFAULT: "0.7rem",
+          sm: "0rem",
+          md: "0rem",
           lg: "2rem",
           xl: "3rem",
           "2xl": "3rem",
@@ -35,6 +35,9 @@ export default {
           "linear-gradient(180deg, rgba(55, 57, 129, 0.10) 0%, rgba(255, 225, 229, 0.00) 23.74%)",
         "bg-card-gradient":
           "linear-gradient(0deg, rgba(47, 46, 121, 0.11) 0%, rgba(255, 255, 255, 0.00) 100%)",
+      },
+      screens: {
+        sm: "500px",
       },
     },
   },

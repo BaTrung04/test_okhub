@@ -10,7 +10,7 @@ import img4 from "../../assets/images/news/img_4.png";
 const New = () => {
   return (
     <>
-      <div className="flex items-center justify-center mt-[5.5rem]">
+      <div className="flex items-center justify-center mt-[5.5rem] mb-[2rem]">
         <div className="relative ">
           <img src={img} alt="1" className="w-[93vw] rounded-[2.6rem]" />
           <img src={img2} alt="1" className="absolute top-0 left-0" />
